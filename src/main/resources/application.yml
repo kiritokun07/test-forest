@@ -1,0 +1,6 @@
+forest:
+  backend: okhttp3
+  log-enabled: true
+  log-request: true
+  interceptors:
+    - com.kirito.test.config.SimpleInterceptor
